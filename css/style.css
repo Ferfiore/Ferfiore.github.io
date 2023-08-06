@@ -1,0 +1,112 @@
+body{
+	background: #00090a;
+	margin: 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 16px;
+	text-align: center;
+	color: whitesmoke;
+}
+header{
+	text-align: center;
+	padding: 0px;
+	padding-top: 13px;
+}
+header h1{
+	font-size: 16px;
+}
+header img{
+	width: 196px;
+	height: 196px;
+	border-radius: 50%;
+}
+
+nav{
+	display: flex;
+    text-align: center;
+	justify-content: center;
+
+}
+
+nav a:link{
+	text-decoration: none;
+}
+
+nav img{
+	width: 31px;
+}
+
+nav ul{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav ul li{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+p{
+	color: black;
+	text-align: center;
+	max-width: 500px;
+	margin: 0 auto;
+	color: whitesmoke;
+
+}	
+.redes{
+	text-align: center;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.redes ul{
+	padding: 0;
+	margin: 8px;
+	list-style: none;
+	
+
+}
+
+.redes a:link{
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	padding: 16px;
+	background: white;
+	font-size: 15px;
+	color: black;
+	text-decoration: none;
+	border-radius: 5px;
+	border: 1px solid black;
+	padding: 0.5rem 1rem;
+	width: 200px;
+	margin: 10px;
+	text-align: center;
+	margin-right: 500px;
+	margin-left: 500px;
+	box-shadow: 5px 5px;
+
+
+
+}
+
+
+footer{ 
+	
+	font-size: 10px;
+	padding: 0 auto;	
+	align-items: center;
+	text-align: center;
+	
+}
+footer p{
+	text-align: center;
+	align-items: center;
+	
+}
+
